@@ -1,0 +1,51 @@
+# > ChatGPT
+HOST-SUFFIX,chat.com,Broker
+HOST-SUFFIX,chatgpt.com,Broker
+HOST-SUFFIX,livekit.cloud,Broker
+HOST-SUFFIX,oaistatic.com,Broker
+HOST-SUFFIX,oaiusercontent.com,Broker
+HOST-SUFFIX,openai.com,Broker
+HOST-SUFFIX,sora.com,Broker
+HOST,api.statsig.com,Broker
+HOST,api-iam.intercom.io,Broker
+HOST,chat.openai.com.cdn.cloudflare.net,Broker
+HOST,o33249.ingest.sentry.io,Broker
+HOST,openai-api.arkoselabs.com,Broker
+HOST,openaiapi-site.azureedge.net,Broker
+HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,Broker
+HOST,openaicomproductionae4b.blob.core.windows.net,Broker
+HOST,production-openaicom-storage.azureedge.net,Broker
+HOST-SUFFIX,client-api.arkoselabs.com,Broker
+HOST-KEYWORD,openaiapi,Broker
+HOST-KEYWORD,openaicom,Broker
+IP-CIDR,24.199.123.28/32,Broker,no-resolve
+IP-CIDR,64.23.132.171/32,Broker,no-resolve
+
+# > Claude
+HOST,servd-anthropic-website.b-cdn.net,Broker
+HOST-SUFFIX,claude.ai,Broker
+HOST-SUFFIX,anthropic.com,Broker
+HOST-SUFFIX,claude.com,Broker
+HOST-SUFFIX,claudeusercontent.com,Broker
+HOST-SUFFIX,claudemcpclient.com,Broker
+HOST-KEYWORD,claude,Broker
+HOST-KEYWORD,anthropic,Broker
+
+# > Microsoft Copilot
+HOST,copilot.microsoft.com,Broker
+HOST,sydney.bing.com,Broker
+HOST,www.bing.com,Broker
+# > GitHub Copilot
+HOST-SUFFIX,githubcopilot.com,Broker
+
+# > Grok
+HOST-SUFFIX,grok.com,Broker
+HOST-SUFFIX,x.ai,Broker
+
+# > OpenRouter
+HOST-SUFFIX,openrouter.ai,Broker
+
+# > Perplexity
+HOST-SUFFIX,perplexity.ai,Broker
+HOST-SUFFIX,pplx.ai,Broker
+HOST,pplx-res.cloudinary.com,Broker

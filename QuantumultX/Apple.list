@@ -1,0 +1,66 @@
+# NAME: Apple
+# AUTHOR: blackmatrix7, LingJingMaster
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2026-05-10 02:20:12
+# MODIFIED: 2026-05-10
+# DOMAIN: 9
+# DOMAIN-KEYWORD: 7
+# DOMAIN-SUFFIX: 1558
+# IP-CIDR: 13
+# USER-AGENT: 23
+# TOTAL: 1610
+
+# > iCloud Photos / CloudKit / Apple CDN (supplement)
+HOST-SUFFIX,apple.com,Broker
+HOST-SUFFIX,icloud.com,Broker
+HOST-SUFFIX,icloud-content.com,Broker
+HOST-SUFFIX,icloud.com.cn,Broker
+HOST-SUFFIX,icloud-content.com.cn,Broker
+HOST-SUFFIX,apple-cloudkit.com,Broker
+HOST-SUFFIX,cdn-apple.com,Broker
+HOST-SUFFIX,mzstatic.com,Broker
+
+# > Apple (from blackmatrix7/ios_rule_script)
+HOST-KEYWORD,apple-support.akadns.net,Broker
+HOST-KEYWORD,apple.com.akadns.net,Broker
+HOST-KEYWORD,apple.com.edgekey.net,Broker
+HOST-KEYWORD,buy.itunes.apple.com,Broker
+HOST-KEYWORD,smp-device,Broker
+HOST-KEYWORD,testflight,Broker
+HOST-KEYWORD,icloud.com.akadns.net,Broker
+USER-AGENT,*FindMyiPhone?,Broker
+USER-AGENT,*Music?,Broker
+USER-AGENT,*WeatherFoundation*,Broker
+USER-AGENT,*com.apple.Maps?,Broker
+USER-AGENT,*com.apple.mobileme.fmip1,Broker
+USER-AGENT,FMDClient*,Broker
+USER-AGENT,FMFD*,Broker
+USER-AGENT,FindMyFriends*,Broker
+USER-AGENT,FindMyiPhone*,Broker
+USER-AGENT,Maps*,Broker
+USER-AGENT,Wallet*,Broker
+USER-AGENT,com.apple.Maps,Broker
+USER-AGENT,com.apple.appstored*,Broker
+USER-AGENT,fmflocatord*,Broker
+USER-AGENT,geod*,Broker
+USER-AGENT,locationd*,Broker
+USER-AGENT,passd*,Broker
+USER-AGENT,Music*,Broker
+USER-AGENT,AppleNews*,Broker
+USER-AGENT,com.apple.news*,Broker
+USER-AGENT,com.apple.trustd*,Broker
+USER-AGENT,AppleTV*,Broker
+USER-AGENT,com.apple.tv*,Broker
+IP-CIDR,139.178.128.0/18,Broker,no-resolve
+IP-CIDR,144.178.0.0/19,Broker,no-resolve
+IP-CIDR,144.178.36.0/22,Broker,no-resolve
+IP-CIDR,144.178.48.0/20,Broker,no-resolve
+IP-CIDR,17.0.0.0/8,Broker,no-resolve
+IP-CIDR,192.35.50.0/24,Broker,no-resolve
+IP-CIDR,198.183.17.0/24,Broker,no-resolve
+IP-CIDR,205.180.175.0/24,Broker,no-resolve
+IP-CIDR,2403:300::/32,Broker,no-resolve
+IP-CIDR,2620:149::/32,Broker,no-resolve
+IP-CIDR,2a01:b740::/32,Broker,no-resolve
+IP-CIDR,63.92.224.0/19,Broker,no-resolve
+IP-CIDR,65.199.22.0/23,Broker,no-resolve

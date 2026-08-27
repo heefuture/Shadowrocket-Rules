@@ -1,0 +1,11 @@
+# NAME: ApplePush
+# AUTHOR: LingJingMaster
+# UPDATED: 2026-05-02
+# DOMAIN-SUFFIX: 4
+# TOTAL: 4
+
+# > Apple Push Notification service
+HOST-SUFFIX,push.apple.com,Broker
+HOST-SUFFIX,gateway.push.apple.com,Broker
+HOST-SUFFIX,api.push.apple.com,Broker
+HOST-SUFFIX,sandbox.push.apple.com,Broker

@@ -1,0 +1,47 @@
+# NAME: HK_Banks_Direct
+# DESC: Hong Kong banks other than HSBC HK and American Express
+
+# Standard Chartered Hong Kong
+URL-REGEX,^https?://www\.sc\.com/hk/
+HOST,api.sc.com,Broker
+HOST-SUFFIX,standardchartered.com.hk,Broker
+HOST-KEYWORD,standardchartered-hk,Broker
+
+# Traditional banks
+HOST-SUFFIX,ccb.com.hk,Broker
+HOST,asia.ccb.com,Broker
+HOST-SUFFIX,bochk.com,Broker
+HOST-SUFFIX,bankofchina.com.hk,Broker
+HOST-SUFFIX,bocpay.com.hk,Broker
+HOST-SUFFIX,hkbea.com,Broker
+HOST-SUFFIX,dbs.com.hk,Broker
+HOST-SUFFIX,cncbinternational.com,Broker
+HOST-SUFFIX,cmbwinglungbank.com,Broker
+HOST-SUFFIX,winglungbank.com,Broker
+HOST-SUFFIX,hangseng.com,Broker
+HOST-SUFFIX,shacombank.com.hk,Broker
+HOST-SUFFIX,publicbank.com.hk,Broker
+HOST-SUFFIX,ocbc.com.hk,Broker
+HOST-SUFFIX,ocbcwhhk.com,Broker
+HOST-SUFFIX,tybhk.com.hk,Broker
+HOST-SUFFIX,chiyubank.com,Broker
+HOST-SUFFIX,dahsing.com,Broker
+HOST-SUFFIX,dahsing.com.hk,Broker
+HOST-SUFFIX,chbank.com,Broker
+HOST-SUFFIX,ncb.com.hk,Broker
+HOST-SUFFIX,icbcasia.com,Broker
+HOST-SUFFIX,fubonbank.com.hk,Broker
+HOST-SUFFIX,fubon.com,Broker
+HOST-SUFFIX,citi.com.hk,Broker
+HOST-SUFFIX,bankcomm.com.hk,Broker
+HOST-SUFFIX,bodintl.com,Broker
+
+# Virtual banks
+HOST-SUFFIX,za.group,Broker
+HOST-SUFFIX,livibank.com,Broker
+HOST-SUFFIX,mox.com,Broker
+HOST-SUFFIX,welab.bank,Broker
+HOST-SUFFIX,fusionbank.com,Broker
+HOST-SUFFIX,paob.com.hk,Broker
+HOST-SUFFIX,antbank.hk,Broker
+HOST-SUFFIX,airstarbank.com,Broker

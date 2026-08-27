@@ -1,0 +1,7 @@
+# NAME: HSBC_HK
+# DESC: HSBC Hong Kong and Reward+ services
+
+HOST-SUFFIX,hsbc.com.hk,Broker
+
+# Shared AppDynamics endpoint used by HSBC HK apps; exact match limits spillover
+HOST,mobile.eum-appdynamics.com,Broker

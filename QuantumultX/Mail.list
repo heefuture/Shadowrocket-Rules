@@ -1,0 +1,32 @@
+# NAME: Mail
+# AUTHOR: LingJingMaster
+# DESC: Mail transport endpoints for IMAP, POP3, and SMTP
+# DOMAIN: 14
+# DOMAIN-SUFFIX: 2
+# TOTAL: 16
+
+# Apple iCloud Mail
+HOST-SUFFIX,mail.icloud.com.cn,Broker
+HOST-SUFFIX,mail.me.com,Broker
+
+# Gmail
+HOST,imap.gmail.com,Broker
+HOST,pop.gmail.com,Broker
+HOST,smtp.gmail.com,Broker
+
+# Microsoft Outlook / Microsoft 365
+HOST,imap-mail.outlook.com,Broker
+HOST,outlook.office365.com,Broker
+HOST,smtp-mail.outlook.com,Broker
+HOST,smtp.office365.com,Broker
+
+# Yahoo Mail
+HOST,imap.mail.yahoo.com,Broker
+HOST,smtp.mail.yahoo.com,Broker
+HOST,apple.imap.mail.yahoo.com,Broker
+HOST,apple.smtp.mail.yahoo.com,Broker
+
+# Yandex Mail
+HOST,imap.yandex.com,Broker
+HOST,pop.yandex.com,Broker
+HOST,smtp.yandex.com,Broker

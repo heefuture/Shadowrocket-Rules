@@ -164,12 +164,16 @@ HOST,openapi-trade.longbridge.cn,Broker
 HOST-SUFFIX,itiger.com,Broker
 HOST-SUFFIX,itigerup.com,Broker
 HOST-SUFFIX,tigerbrokers.com,Broker
+HOST-SUFFIX,tigerbrokers.com.hk,Broker
 HOST-SUFFIX,tigerbrokers.net,Broker
 HOST-SUFFIX,tigerbrokers.nz,Broker
 HOST-SUFFIX,tigerfintech.com,Broker
 HOST-SUFFIX,skytigris.cn,Broker
+HOST-SUFFIX,skytigris.com,Broker
 HOST-SUFFIX,tradeup.com,Broker
 HOST-SUFFIX,iotaskyt.com,Broker
+HOST-SUFFIX,itigergrowtha.com,Broker
+HOST-SUFFIX,tigrdw.com,Broker
 
 # Tiger Brokers - community and legacy domains
 HOST-SUFFIX,laohu8.com,Broker

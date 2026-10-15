@@ -1,3 +1,19 @@
+# > Apple Intelligence / Siri / Search / Geo
+# Official core endpoints: https://support.apple.com/101555
+# Extended endpoints keep Apple AI region checks and relay bootstrap on one exit
+HOST,guzzoni.apple.com,Broker
+HOST,mask-api.fe.apple-dns.net,Broker
+HOST,mask-api.icloud.com,Broker
+HOST,mask-t.apple-dns.net,Broker
+HOST,mask.apple-dns.net,Broker
+HOST-SUFFIX,smoot.apple.com,Broker
+HOST-SUFFIX,apple-relay.apple.com,Broker
+HOST-SUFFIX,apple-relay.cloudflare.com,Broker
+HOST-SUFFIX,apple-relay.fastly-edge.com,Broker
+HOST-SUFFIX,apple-relay.mask.apple-dns.net,Broker
+HOST-SUFFIX,cp4.cloudflare.com,Broker
+HOST-SUFFIX,gspe1-ssl.ls.apple.com,Broker
+
 # > ChatGPT
 HOST-SUFFIX,chat.com,Broker
 HOST-SUFFIX,chatgpt.com,Broker
